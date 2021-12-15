@@ -17,7 +17,7 @@ if(coreLibAmount != dotnetZipAmount)
         {
             Console.WriteLine($"CoreLib read:{coreLibAmount}");
             Console.WriteLine($"DotNetZip Read:{dotnetZipAmount}");
-            Console.WriteLine($"First discrepency found at byte {i} of output");
+            Console.WriteLine($"First discrepancy found at byte {i} of output");
             break;
         }
     }
